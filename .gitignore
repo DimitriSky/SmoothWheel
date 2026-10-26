@@ -1,0 +1,29 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+
+# Local configuration, credentials and signing material
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Xcode user state and generated release artifacts
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.dSYM/
+*.xcarchive/
+*.app/
+*.dmg
+*.zip
